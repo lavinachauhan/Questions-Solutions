@@ -38,10 +38,9 @@ public:
             max_occ--;
             index+=2;
         }
-        string ans="";
         if(max_occ !=0)
         {
-            return ans;;
+            return "";
         }
         else{
             hash[max_occ_ch -'a']=0;
